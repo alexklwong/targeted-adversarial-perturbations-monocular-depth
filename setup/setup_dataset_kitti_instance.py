@@ -38,6 +38,9 @@ TEST_INSTANCE_LABEL_FILEPATH = os.path.join(
 if not os.path.exists(OUTPUT_ROOT_DIRPATH):
     os.makedirs(OUTPUT_ROOT_DIRPATH)
 
+if not os.path.exists(TEST_REFS_DIRPATH):
+    os.makedirs(TEST_REFS_DIRPATH)
+
 image_paths = sorted(glob.glob(os.path.join(
     KITTI_SEMANTICS_IMAGE_DIRPATH, '*.png')))
 label_paths = sorted(glob.glob(os.path.join(

@@ -28,6 +28,12 @@ TEST_REFS_DIRPATH = 'testing'
 
 OUTPUT_ROOT_DIRPATH = os.path.join('data', 'kitti_data_semantics_targeted_adversarial', 'training')
 
+if not os.path.exists(OUTPUT_ROOT_DIRPATH):
+    os.makedirs(OUTPUT_ROOT_DIRPATH)
+
+if not os.path.exists(TEST_REFS_DIRPATH):
+    os.makedirs(TEST_REFS_DIRPATH)
+
 # Flat category
 ROAD_LABEL_RGB = (128, 64, 128)
 SIDEWALK_LABEL_RGB = (244, 35, 232)
