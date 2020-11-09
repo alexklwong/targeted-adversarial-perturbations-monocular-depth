@@ -35,7 +35,7 @@ If this work is useful to you, please consider citing our paper:
 
 A number of studies have shown that classification, detection and segmentation outputed by a deep network, can be dramatically altered by small additive signals. These *adversarial perturbations* are designed on purpose to “fool” the network. We explore the possibility of fooling a network into inferring the wrong depth of a scene. More specifically, we show that *not only* is it possible to fool a network to provide the wrong depth map, but it is possible to fool it to return *any* depth map. Targeted adversarial perturbations are designed not just to return the wrong answer, but to return the answer that the *adversary wants*.
 
-For example, in the figure above, visually imperceptible noise can, from left to right, (i) scale the scene 10% closer to the camera, (ii) scale the vehicles 10% closer, and (iii) remove an instance of a vehicle from the scene.
+For example, in the figure above, visually imperceptible noise can (i) scale the scene 10% closer to the camera, (ii) scale the vehicles 10% closer, and (iii) remove an instance of a vehicle from the scene.
 
 <p align="center">
     <img src="figures/remove_instance.png" width="800">
@@ -116,7 +116,7 @@ python src/run_perturb.py \
 --output_norm 0.02 \
 --n_step 500 \
 --learning_rates 5.0 1.0 \
---learning_schedule 400 100 \
+--learning_schedule 400 \
 --depth_method monodepth2 \
 --depth_transform_func multiply \
 --depth_transform_value 1.10 \

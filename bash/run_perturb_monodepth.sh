@@ -9,9 +9,9 @@ python src/run_perturb.py \
 --n_width 640 \
 --n_channel 3 \
 --output_norm 0.02 \
---n_step 50 \
+--n_step 500 \
 --learning_rates 4.0 1.0 \
---learning_schedule 50 \
+--learning_schedule 400 \
 --depth_method monodepth \
 --depth_transform_func multiply \
 --depth_transform_value 1.10 \
@@ -28,9 +28,9 @@ python src/run_perturb.py \
 --n_width 640 \
 --n_channel 3 \
 --output_norm 0.02 \
---n_step 50 \
+--n_step 500 \
 --learning_rates 4.0 1.0 \
---learning_schedule 50 \
+--learning_schedule 400 \
 --depth_method monodepth \
 --depth_transform_func flip_horizontal \
 --depth_transform_value 0.0 \
@@ -46,9 +46,9 @@ python src/run_perturb.py \
 --n_width 640 \
 --n_channel 3 \
 --output_norm 0.02 \
---n_step 50 \
+--n_step 500 \
 --learning_rates 4.0 1.0 \
---learning_schedule 50 \
+--learning_schedule 400 \
 --depth_method monodepth \
 --depth_transform_func flip_vertical \
 --depth_transform_value 0.0 \
@@ -66,9 +66,9 @@ python src/run_perturb.py \
 --n_width 640 \
 --n_channel 3 \
 --output_norm 0.02 \
---n_step 50 \
+--n_step 500 \
 --learning_rates 4.0 1.0 \
---learning_schedule 50 \
+--learning_schedule 400 \
 --depth_method monodepth \
 --depth_transform_func multiply \
 --depth_transform_value 1.10 \
@@ -86,9 +86,9 @@ python src/run_perturb.py \
 --n_width 640 \
 --n_channel 3 \
 --output_norm 0.02 \
---n_step 50 \
+--n_step 500 \
 --learning_rates 4.0 1.0 \
---learning_schedule 50 \
+--learning_schedule 400 \
 --depth_method monodepth \
 --depth_transform_func remove \
 --depth_transform_value 0.00 \
@@ -105,9 +105,9 @@ python src/run_perturb.py \
 --n_width 640 \
 --n_channel 3 \
 --output_norm 0.02 \
---n_step 50 \
+--n_step 500 \
 --learning_rates 4.0 1.0 \
---learning_schedule 50 \
+--learning_schedule 400 \
 --depth_method monodepth \
 --depth_transform_func remove \
 --depth_transform_value 0.00 \
@@ -124,9 +124,9 @@ python src/run_perturb.py \
 --n_width 640 \
 --n_channel 3 \
 --output_norm 0.02 \
---n_step 50 \
+--n_step 500 \
 --learning_rates 4.0 1.0 \
---learning_schedule 50 \
+--learning_schedule 400 \
 --depth_method monodepth \
 --depth_transform_func remove \
 --depth_transform_value 0.00 \
@@ -144,9 +144,9 @@ python src/run_perturb.py \
 --n_width 640 \
 --n_channel 3 \
 --output_norm 0.02 \
---n_step 50 \
+--n_step 500 \
 --learning_rates 4.0 1.0 \
---learning_schedule 50 \
+--learning_schedule 400 \
 --depth_method monodepth \
 --depth_transform_func translate_horizontal \
 --depth_transform_value 40 \
@@ -163,9 +163,9 @@ python src/run_perturb.py \
 --n_width 640 \
 --n_channel 3 \
 --output_norm 0.02 \
---n_step 50 \
+--n_step 500 \
 --learning_rates 4.0 1.0 \
---learning_schedule 50 \
+--learning_schedule 400 \
 --depth_method monodepth \
 --depth_transform_func translate_vertical \
 --depth_transform_value 40 \
