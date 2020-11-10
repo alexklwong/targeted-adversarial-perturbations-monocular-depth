@@ -48,7 +48,7 @@ python src/run_perturb.py \
 --learning_rates 5.0 1.0 \
 --learning_schedule 400 \
 --depth_method packnet \
---depth_transform_func fliip_vertical \
+--depth_transform_func flip_vertical \
 --depth_transform_value 0.00 \
 --mask_constraint none \
 --checkpoint_path perturbations/packnet/all_flipv_norm002_lr5e0_1e0 \
