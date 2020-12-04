@@ -1,7 +1,6 @@
 .vscode
 .DS_Store
 data
-depth_adversarial_plots
 src/__pycache__
 src/*.pyc
 models
@@ -14,8 +13,6 @@ external_src/*/*/__pycache__
 perturb/*/__pycache__
 perturb_models
 pretrained_models
-semseg_models
-semseg/*/__pycache__
 trained_models
 training
 validation
