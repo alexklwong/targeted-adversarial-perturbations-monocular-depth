@@ -100,7 +100,7 @@ mkdir pretrained_models/monodepth2
 unzip -o path/to/monodepth2/stereo_640x192.zip -d pretrained_models/monodepth2/
 
 mkdir pretrained_models/packnet
-unzip -o path/to/packnet/packnet_velsup_csk.zip -d pretrained_models/packet/
+unzip -o path/to/packnet/packnet_velsup_csk.zip -d pretrained_models/packnet/
 ```
 
 ## Optimizing targeted adversarial perturbations <a name="optimizing-targeted-adversarial-perturbations"></a>
