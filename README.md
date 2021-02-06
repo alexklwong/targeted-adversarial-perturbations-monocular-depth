@@ -50,9 +50,9 @@ We hope that our repository can provide you with the tools to study and further 
 ```
 virtualenv -p /usr/bin/python3 targeted-attacks-py3env
 source targeted-attacks-py3env/bin/activate
-pip install opencv-python scipy scikit-learn scikit-image matplotlib future yacs gdown
+pip install opencv-python scipy scikit-learn scikit-image matplotlib future yacs pandas gdown
 pip install numpy==1.16.4 gast==0.2.2
-pip install tensorflow-gpu==1.14
+pip install Pillow==6.1.0 torch==1.2.0 torchvision==0.4.0 tensorboard==1.14.0
 ```
 
 ## Setting up your data directories <a name="setting-up-data-directories"></a>
@@ -61,6 +61,7 @@ Assuming you have the KITTI semantics dataset:
 ```
 mkdir data
 ln -s /path/to/kitti_data_semantics/ data/kitti_data_semantics
+
 python setup/setup_dataset_kitti_semantics.py
 python setup/setup_dataset_kitti_instance.py
 ```
