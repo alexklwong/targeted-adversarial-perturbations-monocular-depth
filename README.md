@@ -12,7 +12,7 @@ If this work is useful to you, please consider citing our paper:
 ```
 @inproceedings{wong2020targeted,
   title={Targeted Adversarial Perturbations for Monocular Depth Prediction},
-  author={Wong, Alex and Safa Cicek and Soatto, Stefano},
+  author={Wong, Alex and Cicek, Safa and Soatto, Stefano},
   booktitle={Advances in neural information processing systems},
   year={2020}
 }
