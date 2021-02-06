@@ -66,7 +66,7 @@ python setup/setup_dataset_kitti_semantics.py
 python setup/setup_dataset_kitti_instance.py
 ```
 
-## Setting up pretrained models <a name="ssetting-up-pretrained-models"></a>
+## Setting up pretrained models <a name="setting-up-pretrained-models"></a>
 We have provided the implementations of Monodepth, Monodepth2, and PackNet in `external_src`. The implementation of Monodepth was written by us and follows closely to the official Tensorflow implementation. Each model can be accessed through a wrapper class (e.g. `src/monodepth2_model.py`, `src/packnet_model.py`).
 
 We have the copy of each pretrained model used into our Google drive to download them, you may use gdown (already installed in virtual environment):
