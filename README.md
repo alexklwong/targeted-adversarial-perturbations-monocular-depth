@@ -56,7 +56,7 @@ pip install Pillow==6.1.0 torch==1.2.0 torchvision==0.4.0 tensorboard==1.14.0
 ```
 
 ## Setting up your data directories <a name="setting-up-data-directories"></a>
-Assuming you have the KITTI semantics dataset:
+Assuming you have the [KITTI semantics](https://www.cvlibs.net/datasets/kitti/eval_semseg.php?benchmark=semantics2015) dataset:
 
 ```
 mkdir data
